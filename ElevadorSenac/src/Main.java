@@ -8,18 +8,8 @@ public class Main {
         ElevadorAtrio ElevadorDoAtrio = new ElevadorAtrio(0, 0);
         ElevadorBiblioteca ElevadorDaBiblioteca = new ElevadorBiblioteca(0, 0);
 
-        System.out.println("Elevador do Átrio");
-        ElevadorDoAtrio.infoElevador();
-        ElevadorDoAtrio.Entra_pessoa();
-        ElevadorDoAtrio.Sobe_elevador();
-        ElevadorDoAtrio.Sai_pessoa();
-        ElevadorDoAtrio.Entra_pessoa();
-        ElevadorDoAtrio.Desce();
-        ElevadorDoAtrio.Entra_pessoa();
+        System.out.printf("\nElevador da Biblioteca\n\n");
 
-        System.out.println("Elevador da Biblioteca");
-
-        ElevadorDaBiblioteca.infoElevador();
         ElevadorDaBiblioteca.Entra_pessoa();
         ElevadorDaBiblioteca.Sobe_elevador();
         ElevadorDaBiblioteca.Sai_pessoa();
@@ -27,9 +17,8 @@ public class Main {
         ElevadorDaBiblioteca.Desce_elevador();
         ElevadorDaBiblioteca.Entra_pessoa();
 
-        System.out.println("Elevador da Entrada");
+        System.out.printf("Elevador da Entrada\n\n");
 
-        ElevadorDaEntrada.infoElevador();
         ElevadorDaEntrada.Entra_pessoa();
         ElevadorDaEntrada.Sobe_elevador();
         ElevadorDaEntrada.Sai_pessoa();
@@ -37,6 +26,17 @@ public class Main {
         ElevadorDaEntrada.Desce_elevador();
         ElevadorDaEntrada.Entra_pessoa();
 
+        System.out.printf("\nElevador do Átrio\n\n");
+
+        ElevadorDoAtrio.Entra_pessoa();
+        ElevadorDoAtrio.Sobe_elevador();
+        ElevadorDoAtrio.Sai_pessoa();
+        ElevadorDoAtrio.Entra_pessoa();
+        ElevadorDoAtrio.Desce();
+        ElevadorDoAtrio.Entra_pessoa();
+
+
+        //ElevadorDaEntrada.infoElevador();
         //Elevador allElevador = new Elevador("Átrio que não é",0, 0, new String[]{"1", "2"}, 1,2,3);
         //allElevador.allInfoExtras();
 
